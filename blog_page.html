@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamalig Food House</title>
+    <link rel="icon" type="image/x-icon" href="images/Mask group.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="logo">
+        <a href="#" class="logo"><img src="images/Group 151.png"></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Products</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search' id="search-icon"></i></a>
+            <div class="search-box" id="search-box">
+                <input type="text" placeholder="Search...">
+                <button type="button" id="search-close-btn">Search</button>
+            </div>
+            <a href="#"><i class='bx bx-food-menu' id="menu-menu"></i></a>
+            <a href="#"><i class='bx bxs-user'  id="user-icon"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    
+     <!-- FOOD MENU -->
+     <div class="menu-image" id="menu-image" style="display: none;">
+        <img src="images/menumenu.jpg" alt="Menu" />
+    </div>
+    <!-- LOGIN FORM -->
+    <div class="container1">
+        <div class="login-form" id="login-form">
+            <form>
+                <button type="button" class="close-close" id="close-close">X</button> 
+                <h2>Login</h2>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <main>
+        <!-- NAKASULAT SA HOME PAGE -->
+         <section class="client-review_for_blog" id="blogs">
+            <div class="reviews_blogs">
+                <h3>BLOGS</h3>
+                <div class="review-container_blogs">
+                    <div class="review-item_blogs">
+                        <a href="https://www.facebook.com/photo.php?fbid=510389308406319&set=pb.100083057625891.-2207520000&type=3" target="_blank" title="People Eating"><img src="images/reviews.png" alt="Review 1"></a>
+                        <div class="review_box">
+                            <h2>Social</h2>
+                            <p>Open for anyone who want to eat and spend their time leisurely.</p>
+                        </div>
+                    </div>
+                    <div class="review-item_blogs">
+                        <a href="https://www.facebook.com/photo.php?fbid=485899534188630&set=pb.100083057625891.-2207520000&type=3" target="_blank" title="Good Environment"><img src="images/image-1.png" alt="Review 2"></a>
+                        <div class="review_box">
+                            <h2>Environment</h2>
+                            <p>The ambiance is so good and had a lot of service to offer.</p>
+                        </div>
+                    </div>
+                    <div class="review-item_blogs">
+                        <a href="https://www.facebook.com/photo.php?fbid=494470369998213&set=pb.100083057625891.-2207520000&type=3" target="_blank" title="Menu"><img src="images/menu.png" alt="Review 3"></a>
+                        <div class="review_box">
+                            <h2>Menu</h2>
+                            <p>The Kamalig Food House offers a budget meal foods and beverages for everyone.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="client-review_for_blog" id="blogs">
+            <div class="reviews_blogs">
+                <div class="review-container_blogs">
+                    <div class="review-item_blogs">
+                        <a href="https://www.facebook.com/photo.php?fbid=484588280986422&set=pb.100083057625891.-2207520000&type=3" target="_blank" title="Loyalty Card"><img src="images/loyalty_card.jpg" alt="Review 1" class="resized-image"></a>
+                        
+                        <div class="review_box">
+                            <h2>Perks</h2>
+                            <p>Loyalty card for regular customers with discound perks   </p>
+                        </div>
+                    </div>
+                    <div class="review-item_blogs">
+                        <a href="https://www.facebook.com/photo.php?fbid=341078865337365&set=pb.100083057625891.-2207520000&type=3" target="_blank" title="Internet Connection"><img src="images/internet.jpg" alt="Review 2"></a>
+                        <div class="review_box">
+                            <h2>Internet</h2>
+                            <p>We offer internet connection through piso wifi machine</p>
+                        </div>
+                    </div>
+                    <div class="review-item_blogs" >
+                        <a href="https://www.facebook.com/photo.php?fbid=363102469801671&set=pb.100083057625891.-2207520000&type=3" target="_blank" title="Delivery Order"><img src="images/delivery.jpg" alt="Review 3"></a>
+                        
+                        <div class="review_box">
+                            <h2>Delivery Order</h2>
+                            <p>The Kamalig Food House offers order and delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FOOTER/ CONTACT PAGE-- -->
+        <section class="contact" id="contact">
+            <div class="contact-info">
+                <div class="first-info">
+                    <img src="images/Mask group.png" alt="">
+    
+                    <a href="mailto:kamalig.food.house@gmail.com"><p>kamalig.food.house@gmail.com</p></a>
+                    <p>09174514147</p>
+    
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/kamaligfoodhouse" target="_blank"><i class='bx bxl-meta' ></i></a>
+                        <a href="https://www.facebook.com/kamaligfoodhouse" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://www.facebook.com/kamaligfoodhouse" target="_blank"><i class='bx bxl-twitter'></i></a>
+                        <a href="mailto:kamalig.food.house@gmail.com"><i class='bx bxl-gmail' ></i></a>
+                    </div>
+                </div>
+    
+                <div class="second-info">
+                    <h4>Support</h4>
+                    <p>Contact Us</p>
+                    <a href="#about"><p>About Us</p></a>
+                    <a href="#products"><p>Food & Restaurant</p></a>
+                </div>
+    
+                <div class="third-info">
+                    <h4>Order</h4>
+                    <p>alak</p>
+                    <p>meryenda</p>
+                    <p>palamig</p>
+                </div>
+                
+                <div class="fourth-info">
+                    <h4>Restaurant nila</h4>
+                    <p>Jerome Obcemea</p>
+                    <p>Russell Jhay Villamor<p>
+                    <p>Jessie Mompero</p>
+                    <p>Mery Rose Cablaida</p>
+                    <p>John Joseph Israel</p>
+                    <p>Carl Kien Carabido</p>
+                    <p>Jeremy Villanueva</p>
+                    <p>Wilmyr Verestigue</p>
+                    <p>Emmanuel Aviles</p>
+                </div>
+    
+                <div class="five-info">
+                    <h4> PLEASE BACK AGAIN</h4>
+                    <P>HOPE U ALL ENJOY THE MEAL IN OUR RESTAURANT</P>
+                </div>
+            </div>
+        </section>
+
+        <div class="end-text">
+            <p>Copyright @ 2024. All Rights Reserved. Designed by Group 4</p>
+        </div>
+    </main>
+</body>
+</html>
